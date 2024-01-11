@@ -3,6 +3,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: Roboto, sans-serif;
+  justify-content: space-between;
 }
 
 .header {
@@ -10,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
+  padding: 20px 150px;
 }
 
 .logo-nav {
@@ -26,24 +28,25 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  gap: 15px;
+  gap: 20px;
   list-style-type: none;
 }
 
 .sub-header {
   display: flex;
-  padding: 50px;
+  padding: 50px 0;
 }
 
 .hero {
   width: 50%;
-  margin: 30px;
 }
 
 .hero h1 {
   font-size: 48px;
   font-weight: extra-bold;
   color: #f9faf8;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .hero p,
@@ -52,12 +55,49 @@ body {
   color: #e5e7eb;
 }
 
+.hero p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
 .img-frame {
   display: flex;
   background-color: grey;
   width: 50%;
   justify-content: center;
   align-items: center;
-  margin: 30px;
-  flex-wrap: 0;
+  flex-wrap: none;
+  margin-left: 40px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+  border-color: white;
+  padding: 6px 20px;
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 150px;
+}
+
+.illust-table {
+  display: flex;
+  text-align: center;
+}
+
+.illustration img {
+  width: 100px;
+  height: auto;
 }
