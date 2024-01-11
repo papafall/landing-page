@@ -4,6 +4,8 @@ body {
   min-height: 100vh;
   font-family: Roboto, sans-serif;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -70,11 +72,6 @@ body {
   margin-left: 40px;
 }
 
-.footer {
-  background-color: #1f2937;
-  color: white;
-}
-
 button {
   background-color: #3882f6;
   color: white;
@@ -89,15 +86,86 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 150px;
+  padding: 25px 200px;
+}
+
+.info h1 {
+  margin-bottom: 40px;
 }
 
 .illust-table {
   display: flex;
   text-align: center;
+  gap: 30px;
+  justify-content: center;
 }
 
 .illustration img {
-  width: 100px;
-  height: auto;
+  width: 150px;
+  height: 150px;
+  border: 2px solid rgb(110, 109, 109);
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+.illustration a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+}
+
+.quote {
+  display: block;
+  padding: 50px 200px;
+  background-color: #e5e7eb;
+  font-size: 26px;
+  color: #1f2937;
+}
+
+.quote-text {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.quote-text span {
+  font-family: cursive, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.author {
+  text-align: right;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.action-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3882f6;
+  margin: 70px 150px;
+  border-radius: 25px;
+  color: #e5e7eb;
+  /*height: 100px;*/
+  padding: 30px 0;
+}
+
+.signup-text h3,
+.signup-text p {
+  margin: 0;
+}
+
+.signup-text {
+  margin-right: 100px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
