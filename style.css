@@ -6,6 +6,9 @@ body {
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  background-image: url(images/background.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -24,25 +27,59 @@ body {
 .logo {
   font-size: 24px;
   color: #f9faf8;
+  margin: 0 40px 0 0;
 }
 
+.logo img {
+  width: 100px;
+  height: auto;
+}
 .nav ul {
   display: flex;
   margin: 0;
   padding: 0;
   gap: 20px;
   list-style-type: none;
+  flex-wrap: wrap;
 }
 
+/* old
 .sub-header {
   display: flex;
   padding: 50px 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+*/
+
+/* New */
+.sub-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-self: stretch;
+  padding: 100px 0;
 }
 
+/* New */
 .hero {
-  width: 50%;
+  flex-grow: 1;
+  flex-basis: 20px;
 }
 
+.img-frame {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  flex-basis: 80px;
+  min-width: 400px;
+}
+
+/* old
 .hero h1 {
   font-size: 48px;
   font-weight: extra-bold;
@@ -50,6 +87,7 @@ body {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+*/
 
 .hero p,
 .nav li {
@@ -62,14 +100,19 @@ body {
   margin-bottom: 10px;
 }
 
+/* old
 .img-frame {
   display: flex;
-  background-color: grey;
-  width: 50%;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  margin-left: 40px;
+  max-width: 400px;
+  margin: 40px;
+}
+*/
+
+.img-frame img {
+  width: 100%;
+  height: auto;
+  width: auto\9;
+  max-width: 50vw;
 }
 
 button {
@@ -98,7 +141,7 @@ button {
 .illust-table {
   display: flex;
   text-align: center;
-  gap: 30px;
+  gap: 60px;
   justify-content: center;
   flex-wrap: wrap;
 }
