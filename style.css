@@ -159,6 +159,11 @@ button {
   flex-direction: column;
   text-decoration: none;
   color: black;
+
+  .illus-text {
+    background-color: rgb(252, 252, 252);
+    border-radius: 25px;
+  }
 }
 
 .quote {
