@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: column;
   color: white;
-  padding: 20px 150px;
+  padding: 20px 15%;
 }
 
 .logo-nav {
@@ -112,7 +112,7 @@ body {
   width: 100%;
   height: auto;
   width: auto\9;
-  max-width: 50vw;
+  max-width: 80vw;
 }
 
 button {
@@ -131,7 +131,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 25px 200px;
+  padding: 25px 15%;
 }
 
 .info h1 {
@@ -159,19 +159,20 @@ button {
   flex-direction: column;
   text-decoration: none;
   color: black;
+}
 
-  .illus-text {
-    background-color: rgb(252, 252, 252);
-    border-radius: 25px;
-  }
+.illus-text {
+  background-color: rgb(252, 252, 252);
+  border-radius: 25px;
 }
 
 .quote {
   display: block;
-  padding: 50px 200px;
+  padding: 50px 15%;
   background-color: #e5e7eb;
   font-size: 26px;
   color: #1f2937;
+  min-width: 100px;
 }
 
 .quote-text {
@@ -196,11 +197,11 @@ button {
   align-items: center;
   justify-content: space-between;
   background-color: #3882f6;
-  margin: 70px 150px;
+  margin: 15%;
   border-radius: 25px;
   color: #e5e7eb;
   /*height: 100px;*/
-  padding: 30px 70px;
+  padding: 30px 15%;
   flex-wrap: wrap;
 }
 
