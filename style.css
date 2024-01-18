@@ -77,6 +77,8 @@ body {
   flex-grow: 1;
   flex-basis: 80px;
   min-width: 400px;
+  overflow: hidden;
+  transition: transform 0.5s ease-in-out;
 }
 
 /* old
@@ -108,7 +110,7 @@ body {
 }
 */
 
-.img-frame img {
+.slide {
   width: 100%;
   height: auto;
   width: auto\9;
