@@ -112,9 +112,10 @@ body {
 
 .slide {
   width: 100%;
-  height: auto;
+  height: 300px;
   width: auto\9;
   max-width: 80vw;
+  min-width: 300px;
 }
 
 button {

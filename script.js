@@ -21,5 +21,5 @@ function showSlides() {
   slides[slideIndex].style.display = "block";
   slideIndex++;
 
-  setTimeout(showSlides, 3000);
+  setTimeout(showSlides, 5000);
 }
